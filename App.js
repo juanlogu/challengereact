@@ -25,7 +25,7 @@ export default function App() {
             options={({ navigation }) => ({
               title: "Home",
               headerStyle: {
-                backgroundColor: 'lightcoral'
+                backgroundColor: 'grey'
               },
               headerRight: () => (
                 <TouchableOpacity onPress={() => setUserAuthenticated(false)}>
